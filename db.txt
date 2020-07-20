@@ -1,0 +1,17 @@
+Nome tabella:
+archivio_auto_usate
+
+Colonne:
+
+id - numero - INT - PRIM KEY
+targa - stringa - VARCHAR(30) - NOT NULL
+casa automobilistica - stringa VARCHAR(100) - NOT NULL
+modello - stringa VARCHAR (100) - NOT NULL
+anno di produzione - numero - YEAR
+km percorsi - numero - FLOAT(9,2) 
+numero di proprietari - numero - TINYINT
+prezzo - numero FLOAT(8,2) - NOT NULL
+descrizione - stringa - TEXT
+ranking - numero - TINYINT
+tipo combustione - stringa VARCHAR(100) - NOT NULL
+immagine - stringa - VARCHAR(30) - DEFAULT
